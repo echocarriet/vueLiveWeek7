@@ -1,3 +1,5 @@
+# 網址
+- https://echocarriet.github.io/vueLiveWeek7/#/
 # vue627
 
 ## Project setup
