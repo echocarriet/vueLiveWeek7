@@ -97,8 +97,10 @@ export default {
     },
     openCouponModal(isNew, item) {
       this.isNew = isNew;
-      if (isNew) {
-        this.tempCoupon = {};
+      if (this.isNew) {
+        this.tempCoupon = {
+          due_date: new Date().getTime() / 1000,
+        };
         this.isNew = true;
       } else {
         // this.tempCoupons = JSON.parse(JSON.stringify(item)); // 深層拷貝

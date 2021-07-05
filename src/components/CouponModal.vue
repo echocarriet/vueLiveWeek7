@@ -91,7 +91,7 @@ import ModalMixins from '../mixins/ModalMixins';
 
 export default {
   props: {
-    product: {
+    coupon: {
       type: Object,
       default() {
         return {};
