@@ -116,7 +116,7 @@ export default {
       let api = `${process.env.VUE_APP_API}/api/${process.env.VUE_APP_PATH}/admin/coupon`;
       let httpMethod = 'post';
       if (!this.isNew) {
-        api = `${process.env.VUE_APP_API}/api/${process.env.VUE_APP_PATH}/admin/product/${this.tempCoupon.id}`;
+        api = `${process.env.VUE_APP_API}/api/${process.env.VUE_APP_PATH}/admin/coupon/${this.tempCoupon.id}`;
         httpMethod = 'put';
       }
       const couponComponent = this.$refs.CouponModal;

@@ -138,6 +138,8 @@ export default {
           if (response.data.success) {
             productComponent.hideModal();
             this.getProducts(this.currentPage);
+          } else {
+            console.log(response.data.message);
           }
         })
         .catch((err) => {

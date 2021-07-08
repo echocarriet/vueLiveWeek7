@@ -236,7 +236,7 @@ export default {
         this.tempProduct.imagesUrl = [];
       }
       if (!this.tempProduct.imageUrl) {
-        this.tempProduct.imagesUrl = '';
+        this.tempProduct.imageUrl = '';
       }
     },
   },
